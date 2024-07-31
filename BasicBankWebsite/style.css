@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar {
+    background-color: aqua;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav_title {
+    padding: 10px;
+}
+.nav_options_list {
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+}
+
+#nav_option_item {
+   padding: 10px;
+   transition: 0.5ms ease-in-out;
+}
+
+#nav_option_item:hover {
+    color: blue;
+    transition: 0.5ms ease-in-out;
+    font-weight: 900;
+}
